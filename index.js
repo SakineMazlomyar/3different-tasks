@@ -22,7 +22,7 @@ The middle character(s) of the string, represented as another string.
 */
 
 const getMiddle = (string) =>{
-    if(typeof string === 'string'){
+    if(typeof string === 'string' && string.length > 0 && string.length<1000){
 
         let even = string.length % 2 === 0 ? true:false;
      
